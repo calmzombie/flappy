@@ -15,10 +15,10 @@ $("#bird").animate({marginLeft:'+=100px'}, speed=200, easing="swing");
      }
 
 /*translate the pipes*/
-function movingpipes(){
-$("#tuyau").animate({marginleft : '+=100px'}, speed=200, easing='swing');/*
-$("#tuyau").css("-webkit-transform","translate(-100px, 0px)");*/
-}
+function movingpipes() {
+$("#tuyau").animate({marginRight: "450px"}, speed=2000, "swing");
+    }
+movingpipes()
 
 /*move with keys*/
 $(document).keyup(function(touche){
