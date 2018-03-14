@@ -14,6 +14,12 @@ function flappyright(){
 $("#bird").animate({marginLeft:'+=100px'}, speed=200, easing="swing");
      }
 
+/*translate the pipes*/
+function movingpipes(){
+$("#tuyau").animate({marginleft : '+=100px'}, speed=200, easing='swing');/*
+$("#tuyau").css("-webkit-transform","translate(-100px, 0px)");*/
+}
+
 /*move with keys*/
 $(document).keyup(function(touche){
   var appui = touche.which || touche.keyCode;

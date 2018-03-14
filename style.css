@@ -13,8 +13,19 @@ section{
   justify-content: center;
   align-items: center;
   background: white url(http://www.mulierchile.com/flappy-bird-background/flappy-bird-background-002.jpg);
+  overflow: hidden;
 }
 
 #bird {
   width: 50px;
+}
+
+.divtuyau{
+  position: relative;
+}
+
+#tuyau{
+  position: absolute;
+  top: 0;
+  right: 0;
 }
