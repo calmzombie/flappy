@@ -6,6 +6,7 @@ body{
 }
 
 section{
+  position: relative;
   width: 400px;
   height: 672px;
   background-color: white;
@@ -18,10 +19,6 @@ section{
 
 #bird {
   width: 50px;
-}
-
-.divtuyau{
-  position: relative;
 }
 
 #tuyau{
