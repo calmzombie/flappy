@@ -16,7 +16,7 @@ $("#bird").animate({marginLeft:'+=100px'}, speed=200, easing="swing");
 
 /*translate the pipes*/
 function movingpipes() {
-$("#tuyau").animate({marginRight: "450px"}, speed=2000, "swing");
+$("#tuyau").animate({marginRight: "450px"}, speed=3000, "swing");
     }
 movingpipes()
 
